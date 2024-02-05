@@ -15,7 +15,7 @@ def app():
 
         for i in reversed(updates):
             st.success(i, icon="✅")
-    with st.sidebar:
+    """with st.sidebar:
         st.markdown("---")
         center_title(35, "black", "Get Notified 🔔")
         email = st.text_input(label="E-Mail", key="email")
@@ -36,4 +36,4 @@ def app():
 
                     db.email(email, name)
                 else:
-                    st.error("Error Verifying OTP")
+                    st.error("Error Verifying OTP")"""
